@@ -1,0 +1,37 @@
+{
+  "name": "chatterbox",
+  "version": "1.0.0",
+  "description": "A complete chatting app with lots of features",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "node src/index.js"
+  },
+  "keywords": [
+    "Websockets",
+    "Authentication",
+    "JWT",
+    "React",
+    "Express",
+    "MongoDB",
+    "SocketIO"
+  ],
+  "author": "Piyush Kumar Patel",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.6.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.3",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.10",
+    "path": "^0.12.7",
+    "socket.io": "^4.8.1"
+  }
+}
