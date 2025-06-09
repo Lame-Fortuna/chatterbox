@@ -14,6 +14,6 @@ export default {
   },
   plugins: [daisyui],
   daisyui: {
-    themes: ["black", "lemonade", "pastel", "retro"],
+    themes: ["black", "lemonade", "pastel", "retro", "cyberpunk"],
   },
 }
