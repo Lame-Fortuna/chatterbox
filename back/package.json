@@ -4,8 +4,8 @@
   "description": "A complete chatting app with lots of features",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
-    "test": "node src/index.js"
+    "start": "node src/index.js",
+    "test": "nodemon src/index.js"
   },
   "keywords": [
     "Websockets",
@@ -21,6 +21,7 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.2",
+    "chatterbox": "file:..",
     "cloudinary": "^2.6.1",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
